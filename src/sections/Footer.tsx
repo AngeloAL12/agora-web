@@ -14,7 +14,7 @@ export default function Footer() {
           {/* Left - Logo */}
           <div className="flex items-center gap-3">
             <img
-              src="/assets/app-icon.jpg"
+              src="/assets/icons/agora-icon.svg"
               alt="Ágora"
               className="w-12 h-12 rounded-xl object-cover"
             />

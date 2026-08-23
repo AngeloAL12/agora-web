@@ -73,11 +73,11 @@ export default function ProblemSection() {
             </motion.div>
 
             {/* Phone */}
-            <div className="w-[260px] sm:w-[300px] h-[530px] sm:h-[610px] phone-frame">
-              <div className="phone-screen">
-                <img src="/assets/screen-map.jpg" alt="Mapa interactivo de Ágora" />
-              </div>
-            </div>
+            <img
+              src="/assets/images/screenshots/screen-map.png"
+              alt="Mapa interactivo de Ágora en iPhone"
+              className="w-[280px] sm:w-[320px] h-auto"
+            />
 
             {/* Floating badge bottom */}
             <motion.div

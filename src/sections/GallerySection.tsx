@@ -7,12 +7,30 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 const screenshots = [
-  { src: '/assets/screen-welcome.jpg', label: 'Bienvenida' },
-  { src: '/assets/screen-map.jpg', label: 'Mapa Interactivo' },
-  { src: '/assets/screen-reportes.jpg', label: 'Reportes' },
-  { src: '/assets/screen-clubs.jpg', label: 'Clubs' },
-  { src: '/assets/screen-ia.jpg', label: 'Asistente IA' },
-  { src: '/assets/screen-profile.jpg', label: 'Perfil' },
+  {
+    src: '/assets/images/screenshots/screen-welcome.png',
+    label: 'Bienvenida',
+  },
+  {
+    src: '/assets/images/screenshots/screen-map.png',
+    label: 'Mapa Interactivo',
+  },
+  {
+    src: '/assets/images/screenshots/screen-reports.png',
+    label: 'Reportes',
+  },
+  {
+    src: '/assets/images/screenshots/screen-clubs.png',
+    label: 'Clubs',
+  },
+  {
+    src: '/assets/images/screenshots/screen-chatbot.png',
+    label: 'Asistente IA',
+  },
+  {
+    src: '/assets/images/screenshots/screen-profile.png',
+    label: 'Perfil',
+  },
 ];
 
 export default function GallerySection() {
@@ -62,11 +80,11 @@ export default function GallerySection() {
             {screenshots.map((screen, i) => (
               <SwiperSlide key={i}>
                 <div className="flex flex-col items-center gap-4">
-                  <div className="w-[200px] sm:w-[220px] h-[410px] sm:h-[450px] phone-frame transition-all duration-500">
-                    <div className="phone-screen">
-                      <img src={screen.src} alt={screen.label} />
-                    </div>
-                  </div>
+                  <img
+                    src={screen.src}
+                    alt={screen.label}
+                    className="w-[220px] sm:w-[250px] h-auto transition-transform duration-500"
+                  />
                   <span className="text-slate-500 text-sm font-medium">
                     {screen.label}
                   </span>

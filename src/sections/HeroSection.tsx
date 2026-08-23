@@ -127,35 +127,18 @@ export default function HeroSection() {
             </motion.div>
           </motion.div>
 
-          {/* Right Content - Phone Mockups */}
+          {/* Right Content - Phone Mockup */}
           <motion.div
             variants={phoneVariants}
             initial="hidden"
             animate="visible"
             className="relative flex justify-center lg:justify-end items-center"
           >
-            {/* Background phone (smaller, rotated) */}
-            <div
-              className="absolute right-4 lg:right-8 top-8 w-[200px] h-[400px] phone-frame animate-float-slow opacity-60"
-              style={{ zIndex: 1 }}
-            >
-              <div className="phone-screen">
-                <img src="/assets/screen-map.jpg" alt="Mapa Ágora" />
-              </div>
-            </div>
-
-            {/* Main phone */}
-            <div
-              className="relative w-[260px] sm:w-[280px] h-[530px] sm:h-[570px] phone-frame animate-float"
-              style={{ zIndex: 2 }}
-            >
-              <div className="phone-screen">
-                <img
-                  src="/assets/screen-welcome.jpg"
-                  alt="Pantalla de bienvenida de Ágora"
-                />
-              </div>
-            </div>
+            <img
+              src="/assets/images/screenshots/screen-welcome.png"
+              alt="Pantalla de bienvenida de Ágora en iPhone"
+              className="w-[280px] sm:w-[340px] lg:w-[360px] h-auto"
+            />
           </motion.div>
         </div>
       </div>
