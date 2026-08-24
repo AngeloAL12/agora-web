@@ -4,6 +4,7 @@ const navLinks = [
   { label: 'Galeria', href: '#galeria' },
   { label: 'Descargar', href: '#descargar' },
   { label: 'Privacidad', href: '/privacidad' },
+  { label: 'Términos', href: '/terminos' },
   { label: 'Soporte', href: '/soporte' },
 ];
 

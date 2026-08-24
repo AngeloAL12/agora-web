@@ -14,6 +14,9 @@ export default function LegalFooter() {
           <Link to="/privacidad" className="transition-colors hover:text-white">
             Privacidad
           </Link>
+          <Link to="/terminos" className="transition-colors hover:text-white">
+            Términos
+          </Link>
           <Link to="/soporte" className="transition-colors hover:text-white">
             Soporte
           </Link>
