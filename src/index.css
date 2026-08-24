@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -34,9 +34,16 @@
   }
 
   body {
-    @apply bg-offwhite text-slate-900 font-inter antialiased;
+    @apply bg-offwhite text-slate-900 antialiased;
+    font-family: 'DM Sans', system-ui, sans-serif;
     overflow-x: hidden;
     max-width: 100%;
+  }
+}
+
+@layer utilities {
+  .font-serif {
+    font-family: 'Newsreader', Georgia, serif;
   }
 }
 

@@ -3,6 +3,8 @@ const navLinks = [
   { label: 'Funciones', href: '#funciones' },
   { label: 'Galeria', href: '#galeria' },
   { label: 'Descargar', href: '#descargar' },
+  { label: 'Privacidad', href: '/privacidad' },
+  { label: 'Soporte', href: '/soporte' },
 ];
 
 export default function Footer() {
